@@ -97,6 +97,6 @@ public class RegressInTests {
                 .log().body()
                 .statusCode(200)
                 .body("name", is("morpheus"))
-                .body("job", is("zion resident"));
+                .body("job", is("zion no resident"));
     }
 }
